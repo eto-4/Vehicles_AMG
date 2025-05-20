@@ -1,5 +1,0 @@
-<odoo>
-    <data noupdate="1">
-        <import model="vehicles.amg" file="vehicles.csv"/>
-    </data>
-</odoo>

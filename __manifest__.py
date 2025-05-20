@@ -5,7 +5,7 @@
 	'version': '1.0',
 	'depends': ['base'],
 	'data': [
-		'data/vehicles_data.xml',
+		'data/vehicles.csv',
 		'security/ir.model.access.csv',
 		'views/vehicle_view.xml',
 		'views/menu_view.xml',
