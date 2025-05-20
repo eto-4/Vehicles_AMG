@@ -41,8 +41,12 @@
     </record>
 
     <!-- Menú principal per a la flota de vehicles -->
-    <menuitem id="menu_fleet_root" name="Flota de vehicles" sequence="1"/>
+    <menuitem id="menu_vehicles_root" name="Flota de vehicles" sequence="1"/>
 
     <!-- Menú per als vehicles dins de la flota -->
-    <menuitem id="menu_vehicle" name="Vehicles" parent="menu_fleet_root" action="action_vehicle_list" sequence="1"/>
+    <menuitem id="menu_vehicle" 
+              name="Llistat de Vehicles" 
+              parent="menu_vehicles_root" 
+              action="action_vehicle_list" 
+              sequence="1"/>
 </odoo>

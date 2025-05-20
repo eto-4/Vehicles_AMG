@@ -8,7 +8,7 @@
 		'data/vehicles_data.csv',
 		'security/ir.model.access.csv',
 		'views/vehicle_view.xml',
-		'views/menu_view.xml',
+		# 'views/menu_view.xml',
 	],
 	'installable': True,
 	'application': True,
