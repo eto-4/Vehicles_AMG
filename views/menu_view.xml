@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <menuitem 
+            id="menu_vehicles_root" 
+            name="Flota de vehicles" 
+            sequence="10"
+        />
+
+        <menuitem 
+            id="menu_vehicle_list" 
+            name="Llistat de Vehicles" 
+            parent="menu_vehicles_root" 
+            action="action_vehicle_list" 
+            sequence="10"
+        />
+
+        <menuitem 
+            id="menu_vehicle_operations" 
+            name="Operacions" 
+            parent="menu_vehicles_root" 
+            sequence="20"
+        />
+    </data>
+</odoo>

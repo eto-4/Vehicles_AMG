@@ -1,6 +1,6 @@
-id,matricula,marca,model,any,kilometres,itv_vigent,propietari,dni_propietari
-vehicle_1,1234ABC,Toyota,Corolla,2018,72500.5,True,Joan Garcia,12345678A
-vehicle_2,5678DEF,Seat,Ibiza,2019,45200,True,Anna Riera,87654321B
-vehicle_3,9012GHI,Ford,Focus,2017,88500.8,False,Marc Puig,11223344C
-vehicle_4,3456JKL,Renault,Clio,2020,30100,True,Carla Soler,99887766D
-vehicle_5,7890MNO,Volkswagen,Golf,2021,15000,True,Pau Esteve,44556677E
+matricula,marca,model,any,kilometres,itv_vigent,propietari,dni_propietari
+1234ABC,Toyota,Corolla,2018,72500.5,True,Joan Garcia,12345678A
+5678DEF,Seat,Ibiza,2019,45200,True,Anna Riera,87654321B
+9012GHI,Ford,Focus,2017,88500.8,False,Marc Puig,11223344C
+3456JKL,Renault,Clio,2020,30100,True,Carla Soler,99887766D
+7890MNO,Volkswagen,Golf,2021,15000,True,Pau Esteve,44556677E

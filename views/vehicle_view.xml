@@ -23,11 +23,11 @@
                     <field name="matricula"/>
                     <field name="marca"/>
                     <field name="model"/>
-                    <field name="any"/>
+                    <!-- <field name="any"/>
                     <field name="kilometres"/>
                     <field name="itv_vigent"/>
                     <field name="propietari"/>
-                    <field name="dni_propietari"/>
+                    <field name="dni_propietari"/> -->
                 </group>
             </form>
         </field>
