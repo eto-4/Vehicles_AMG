@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <menuitem id="menu_vehicles_root" name="Vehicles" sequence="10"/>
+
+        <!-- Submenú per a la gestió de vehicles -->
+        <menuitem id="menu_vehicles_list"
+                  name="Llistat de Vehicles"
+                  parent="menu_vehicles_root"
+                  action="action_vehicle_list"
+                  sequence="1"/>
+
+    </data>
+</odoo>

@@ -1,0 +1,48 @@
+<odoo>
+    <record id="view_vehicle_tree" model="ir.ui.view">
+        <field name="name">vehicles.amg.tree</field>    
+        <field name="model">vehicles.amg</field>    
+        <field name="arch" type="xml">
+            <tree>
+                <!-- Definició dels camps que volem mostrar a la graella -->
+                <field name="propietari"/>
+                <field name="matricula"/>
+                <field name="kilometres"/>
+            </tree>
+        </field>
+    </record>
+
+    <!-- Vista form per a la creació i edició de vehicles -->
+    <record id="view_vehicle_form" model="ir.ui.view">
+        <field name="name">vehicles.amg.form</field>
+        <field name="model">vehicles.amg</field>
+        <field name="arch" type="xml">
+            <form>
+                <group>
+                    <!-- Camps per a la creació/edició -->
+                    <field name="matricula"/>
+                    <field name="marca"/>
+                    <field name="model"/>
+                    <field name="any"/>
+                    <field name="kilometres"/>
+                    <field name="itv_vigent"/>
+                    <field name="propietari"/>
+                    <field name="dni_propietari"/>
+                </group>
+            </form>
+        </field>
+    </record>
+
+    <!-- Definició de l'acció per mostrar la vista de vehicles -->
+    <record id="action_vehicle_list" model="ir.actions.act_window">
+        <field name="name">Vehicles</field>
+        <field name="res_model">vehicles.amg</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <!-- Menú principal per a la flota de vehicles -->
+    <menuitem id="menu_fleet_root" name="Flota de vehicles" sequence="1"/>
+
+    <!-- Menú per als vehicles dins de la flota -->
+    <menuitem id="menu_vehicle" name="Vehicles" parent="menu_fleet_root" action="action_vehicle_list" sequence="1"/>
+</odoo>
